@@ -1,0 +1,88 @@
+#father_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#father_sections {
+  max-width: 80%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#father_sections a {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  width: 50%;
+  text-decoration: none;
+}
+
+.sections {
+  position: relative;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.sections:hover {
+  transform: translateX(10%);
+}
+
+.sections h2 {
+  font-size: 12vh;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.sections p {
+  margin-top: 0px;
+  margin-left: 5%;
+  color: red;
+  font-size: large;
+}
+
+.sections {
+  cursor: pointer;
+}
+
+#go_back_to_home a {
+  font-size: 2vh;
+  font-weight: 700;
+  color: white ;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+#go_back_to_home a:hover {
+  transform: translate(1px, 0px);
+}
+
+#go_back_to_home a {
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+
+#nex_page_container {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+}
+
+#nex_page_container a i {
+  color: #fff;
+  font-size: 4vh;
+}
+
+#nex_page_container a i:hover {
+  color: red;
+}
+
+.separador{
+  margin-top: 20%;
+  color: black;
+}

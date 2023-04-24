@@ -1,0 +1,129 @@
+*{
+  font-family: "Lato", sans-serif;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+  .hidden{
+    transition: none;
+  }
+}
+
+#extra_confiugrations{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  max-width: 50%;
+  margin: auto;
+}
+
+#big_title{
+  font-size: 12vh;
+  margin-top: 35%;
+  margin-bottom: 0%;
+}
+
+.sub_title{
+  margin-top: 0%;
+  font-size: large;
+  font-weight: 200;
+  color: rgb(145, 140, 140);
+  margin-left: 2%;
+}
+
+#go_back_to_home a {
+  font-size: 2vh;
+  font-weight: 700;
+  color: black ;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+#go_back_to_home a:hover {
+  transform: translate(1px, 0px);
+}
+
+#go_back_to_home a {
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+
+#all_important_content{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#img_container_div{
+  background-image: url('/images/pokedex1.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-position-y: center;
+  height: 75vh;
+  display: flex;
+}
+
+#principal_text{
+  margin-top: 10%;
+}
+
+#principal_text section{
+  margin: auto;
+  max-width: 40%;
+  padding: 2%;
+}
+
+#principal_text section h2{
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+#importan_description{
+  font-size: 2.3vh;
+  font-weight:lighter;
+}
+
+.extra_information{
+  font-size: 1.8vh;
+  color: #3c3c3c;
+}
+
+#github_link_animated a{
+  font-size: 2vh;
+  color: red;
+  text-decoration: none;
+  
+}
+
+#github_link_animated{
+  transition: transform 0.3s ease;
+  margin-bottom: 20%;
+}
+
+#github_link_animated:hover{
+  transform: translateX(5%);
+}
+
+#extra_image_info{
+  margin: auto;
+  width: 50%;
+}
+
+#some_extra_info p{
+  font-size: 1.8vh;
+}

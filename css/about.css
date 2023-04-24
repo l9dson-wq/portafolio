@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.big_text_section {
+  margin: auto;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-bottom: 20%; */
+}
+
+.big_text_section {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+.big_text {
+  font-size: 14vh;
+  font-weight: 700;
+}
+
+#icon_direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+#icon_direction a i {
+  color: #fff;
+  font-size: 5vh;
+}
+
+#icon_direction a i:hover {
+  color: #cc0000;
+}
+
+#about {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column; 
+}
+
+#about h2 {
+  font-size: 3vh;
+  font-weight: 900;
+}
+
+#specific_introduction {
+  font-size: 2vh;
+  font-weight: 900;
+}
+
+#div_about_section_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  margin: auto;
+}
+
+#div_image_container {
+  margin: auto;
+}
+
+#div_image_container img {
+  border-radius: 50%;
+  animation: imgAnimation 1s ease 0s 1 normal forwards;
+}
+
+@keyframes imgAnimation {
+  0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+#all_description {
+  font-size: 2vh;
+}
+
+#all_description a {
+  color: red;
+}
+
+#go_back_to_home a {
+  font-size: 2vh;
+  font-weight: 700;
+  color: white ;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+#go_back_to_home a:hover {
+  transform: translate(1px, 0px);
+}
+
+#go_back_to_home a {
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+
+
+
+#nex_page_container {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+}
+
+#nex_page_container a i {
+  color: #fff;
+  font-size: 4vh;
+}
+
+#nex_page_container a i:hover {
+  color: rgb(255, 28, 28);
+}
+
+#extra_infomation{
+  display: none;
+}
+
+#about_linkedin_link{
+  text-decoration: none;
+}
